@@ -21,7 +21,7 @@
 
     - name: Find local war file 
       find: 
-        paths: ""
+        paths: "{{WAR_DIR}}/MAVEN/target"
         file_type: file 
         patterns: "*.old"
       register: out 
