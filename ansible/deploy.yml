@@ -19,6 +19,7 @@
         state: absent 
       loop: "{{out.files}}"
 
+    - find: 
     - name: Copy war file 
       copy:
         src: ../target/studentapp*.war
