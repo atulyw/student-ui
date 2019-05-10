@@ -21,7 +21,7 @@
 
     - name: Copy war file 
       copy:
-        src:
+        src: 
         dest: 
 
     
