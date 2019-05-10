@@ -8,3 +8,5 @@
       shell: ls -ld {{TOMCAT_LOC}}
 
     - name: Find old file 
+      find:
+        
