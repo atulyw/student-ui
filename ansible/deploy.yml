@@ -26,7 +26,7 @@
         patterns: "*.old"
       register: out 
 
-
+    - debug: msg="{{out}}"
     - name: Copy war file 
       copy:
         src: ../target/studentapp*.war
