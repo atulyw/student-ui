@@ -27,6 +27,7 @@
         patterns: "*.war"
       register: out 
       delegate_to: 127.0.0.1
+      become: no
 
     - debug: msg="{{out}}"
     #- name: Copy war file 
