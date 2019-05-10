@@ -23,7 +23,7 @@
       find: 
         paths: "{{WAR_DIR}}/MAVEN/target"
         file_type: file 
-        patterns: "*.old"
+        patterns: "*.war"
       register: out 
 
     - debug: msg="{{out}}"
