@@ -24,8 +24,9 @@
         paths: ../target 
         file_type: file 
         patterns: "*.old"
-       
       register: out 
+
+
     - name: Copy war file 
       copy:
         src: ../target/studentapp*.war
