@@ -9,4 +9,7 @@
 
     - name: Find old file 
       find:
-        
+        find: 
+        paths: "{{TOMCATDIR}}/webapps"
+        file_type: any
+      register: out 
