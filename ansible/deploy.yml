@@ -18,6 +18,8 @@
         path: "{{item.path}}"
         state: absent 
       loop: "{{out.files}}"
+    
+    - command: ls "{{WAR_LOC}}"
 
     - name: Find local war file 
       find: 
