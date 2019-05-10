@@ -32,8 +32,8 @@
     - debug: msg="{{out}}"
     - name: Copy war file 
       copy:
-        src: ../target/studentapp*.war
+        src: "{{item."
         dest: "{{TOMCAT_LOC}}/webapps/student.war"
-      loop: "{"
+      loop: "{{out.files}}"
 
     
