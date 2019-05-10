@@ -22,7 +22,7 @@
 
     - name: Find local war file 
       find: 
-        paths: "{{WAR_LOC}}"
+        paths: "{{WAR_LOC}}/M"
         file_type: file 
         patterns: "*.war"
       register: out 
