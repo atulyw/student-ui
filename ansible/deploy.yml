@@ -32,7 +32,7 @@
     - debug: msg="{{out}}"
     - name: Copy war file 
       copy:
-        src: "{{item."
+        src: "{{item.path}}"
         dest: "{{TOMCAT_LOC}}/webapps/student.war"
       loop: "{{out.files}}"
 
