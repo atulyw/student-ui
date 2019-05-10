@@ -8,8 +8,7 @@
       shell: ls -ld {{TOMCAT_LOC}}
 
     - name: Find old file 
-      find:
-        find: 
-        paths: "{{TOMCATDIR}}/webapps"
+      find: 
+        paths: "{{TOMCAT_LOC}}/webapps"
         file_type: any
       register: out 
