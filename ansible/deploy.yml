@@ -22,6 +22,6 @@
     - name: Copy war file 
       copy:
         src: ../target/studentapp*.war
-        dest: "{{TOMCAT_LOC}}/webapps"
+        dest: "{{TOMCAT_LOC}}/webapps/student.war"
 
     
