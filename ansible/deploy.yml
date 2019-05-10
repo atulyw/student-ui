@@ -33,6 +33,7 @@
     - name: Copy war file 
       copy:
         src: ../target/studentapp*.war
-    #    dest: "{{TOMCAT_LOC}}/webapps/student.war"
+        dest: "{{TOMCAT_LOC}}/webapps/student.war"
+      loop: "{"
 
     
