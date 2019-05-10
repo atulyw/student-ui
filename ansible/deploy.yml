@@ -18,8 +18,7 @@
         path: "{{item.path}}"
         state: absent 
       loop: "{{out.files}}"
-    
-    - command: ls "{{WAR_LOC}}"
+
 
     - name: Find local war file 
       find: 
@@ -27,6 +26,7 @@
         file_type: file 
         patterns: "*.war"
       register: out 
+      delegate_to: 127.0.0.1
 
     - debug: msg="{{out}}"
     #- name: Copy war file 
