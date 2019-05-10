@@ -13,4 +13,9 @@
         file_type: any
       register: out 
 
-    
+    - name: Remove the old webapps 
+      file:
+        path: "{{item.path}}"
+        state: absent 
+      loop: "{{out.files}}"
+
