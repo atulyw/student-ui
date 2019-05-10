@@ -19,4 +19,10 @@
         state: absent 
       loop: "{{out.files}}"
 
+    - name: Find war file 
+      find: 
+        paths: "{{TOMCAT_LOC}}/webapps"
+        file_type: any
+      register: out 
+
     
