@@ -19,6 +19,9 @@
         state: absent 
       loop: "{{out.files}}"
 
-    - name: 
+    - name: Copy war file 
+      copy:
+        src:
+        dest: 
 
     
