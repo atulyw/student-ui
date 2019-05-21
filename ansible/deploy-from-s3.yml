@@ -54,4 +54,6 @@
       become_user: student
 
     - name: Start API Service 
-      
+      service:
+        name: studentapi 
+        state: started 
