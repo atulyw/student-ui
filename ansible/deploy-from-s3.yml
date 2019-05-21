@@ -35,7 +35,7 @@
       aws_s3:
         bucket: terraform-batch37
         object: /artifacts/studentui.war
-        dest: 
+        dest: "{{TOMCAT_LOC}}/webapps/student.war"
         mode: get
 
     
