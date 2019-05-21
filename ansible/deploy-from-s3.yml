@@ -49,6 +49,8 @@
       aws_s3:
         bucket: terraform-batch37
         object: /artifacts/studentapi.war
-        dest: "/home/student/API/student.war"
+        dest: "/home/student/API/studentapi.war"
         mode: get
       become_user: student
+
+    - name: 
