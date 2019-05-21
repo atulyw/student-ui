@@ -34,8 +34,8 @@
     - name: Download UI War file 
       aws_s3:
         bucket: terraform-batch37
-        object: /arti
-        dest: /usr/local/myfile.txt
+        object: /artifacts/studentui.war
+        dest: 
         mode: get
 
     
