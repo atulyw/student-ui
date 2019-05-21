@@ -26,6 +26,9 @@
 
     - name: Install python boto modules 
       pip:
-        name: ""
+        name: "{{item}}"
+      loop:
+        - botocore
+        - botocore
 
     
