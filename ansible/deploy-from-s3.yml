@@ -24,6 +24,8 @@
         name: python2-pip 
         state: installed 
 
-    - name
+    - name: Install python boto modules 
+      pip:
+        name: ""
 
     
