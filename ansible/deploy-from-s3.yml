@@ -48,7 +48,7 @@
     - name: Download API war file 
       aws_s3:
         bucket: terraform-batch37
-        object: /artifacts/studentui.war
+        object: /artifacts/studentapi.war
         dest: "{{TOMCAT_LOC}}/webapps/student.war"
         mode: get
       become_user: student
