@@ -37,5 +37,5 @@
         object: /artifacts/studentui.war
         dest: "{{TOMCAT_LOC}}/webapps/student.war"
         mode: get
-
+      
     
