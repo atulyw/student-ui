@@ -29,6 +29,8 @@
         name: "{{item}}"
       loop:
         - botocore
-        - botocore
+        - boto3
+
+    
 
     
