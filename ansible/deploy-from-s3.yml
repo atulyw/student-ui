@@ -19,7 +19,6 @@
         state: absent 
       loop: "{{out.files}}"
 
-
     - name: 
 
     
