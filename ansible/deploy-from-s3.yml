@@ -20,6 +20,6 @@
       loop: "{{out.files}}"
 
     - name: Install python pip package 
-    
+      name
 
     
