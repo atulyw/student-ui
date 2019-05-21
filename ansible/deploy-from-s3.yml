@@ -40,4 +40,8 @@
       become_user: student
     
     - name: Stop Api Service 
-      
+      service:
+        name: studentapi 
+        state: stopped 
+
+    - name: 
