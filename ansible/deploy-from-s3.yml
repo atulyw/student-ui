@@ -32,6 +32,10 @@
         - boto3
 
     - name: Download UI War file 
-      
+      aws_s3:
+        bucket: mybucket
+        object: /my/desired/key.txt
+        dest: /usr/local/myfile.txt
+        mode: get
 
     
