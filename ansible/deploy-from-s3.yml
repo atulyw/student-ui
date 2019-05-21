@@ -19,6 +19,7 @@
         state: absent 
       loop: "{{out.files}}"
 
-    - name: 
+    - name: Install python pip package 
+    
 
     
