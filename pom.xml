@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://${NEXUS_SERVER}:8081/repository/maven-releases/</url>
+            <url>http://${NEXUS_SERVER}:8081/repository/${REPOSITORY_NAME}/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://${NEXUS_SERVER}:8081/repository/maven-snapshots/</url>
+            <url>http://${NEXUS_SERVER}:8081/repository/${REPOSITORY_NAME}</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
