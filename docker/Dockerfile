@@ -1,4 +1,3 @@
-#rkalluru/appui:v1 
 FROM tomcat 
 ADD student.war webapps/student.war 
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar lib/mysql-connector.jar
