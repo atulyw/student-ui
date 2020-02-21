@@ -11,7 +11,8 @@ div.ex {
 	text-align: right width:300px;
 	padding: 10px;
 	border: 5px solid grey;
-	margin: 0pxgit 
+	margin: 0pxgit git cls
+	
 }
 </style>
 <body>
