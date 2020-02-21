@@ -11,7 +11,7 @@ div.ex {
 	text-align: right width:300px;
 	padding: 10px;
 	border: 5px solid grey;
-	margin: 0px
+	margin: 0pxgit 
 }
 </style>
 <body>
