@@ -15,5 +15,5 @@ deploy:
       secure: "uAieV4HcruuD5B73ET0LFOJNt/tOSopDzExtcZndO/fNaEDArsDUEz4D69HcZn3ZdutiLXcP1pAL7VJSGfv5PWkceypzV88Zq1iAoTnQW31xNLVgg6kf2O5GNv4wugakXVO1lVXPHlJQWb4/Yz7qNyqcBhomLwLGZiJFjhhSoAgU3IQ3GlDqWKLDVYHjYW31MV5EBVXfThNTk3avZqkBLb3t32/IG91wL1ydMTZ3UmEIQhk5gac0B8bhw7+MIuFfxVw22vMtYU2NA2mBcEVdUVEx4rs+BvSKyzWblgnmPe7vzC7gchtF5ZT3rVEFttysWN2N0rHg7Dn1f/0MQFcs2F4lnzZPMWJRacHKmCuj34EwAqCLUgNk8Vv5+RSWwCwb2XwyWVgrc8NA2qSwYFn/U1p8PAHXw/vrgy2Rdxo5hWy2klsO+WYdRdD6/qYSQxecgeRK4nrRgsKIc0UukmrOq04h2vO5xuTnqZARIzY1wXerct+CvYMtFyvZu9t50sFyOLwG0kNgqyJtK6IOd1Nvrfjb8mpNUIRxUIBKkAXEWm+pdt5ure0trWlU9iU9EvIKxGW0UiH4ZAdGNGtBwECURkYQobPb4SrKZmWHBN3DmJ/28I3aqyLh9rJNl2rqzMakgvhlxGACB9Ju8SqkjNg5ak9roio5SjHj/x+Fef6v4mg="
     upload-dir: B16
     skip_cleanup: true
-    acl: private  
+    acl: public
     region: ap-south-1
