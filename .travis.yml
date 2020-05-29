@@ -2,8 +2,6 @@ dist: trusty
 language: java
 jdk:
 - oraclejdk8
-services:
-- maven
 install: true
 script:
 - mvn clean package
@@ -13,8 +11,8 @@ deploy:
   bucket: atul-test-cbz
   secret_access_key:
    secure: m0yLvY5TMevabMQf6BPqwOXUhTfgx921+2kMsCf1JpF5fcjDJ8sFKuIsAq2aE3QK9Okfl1TndchGRjiLUdLUWtEKmGEFX86Za0U9yghOZpgmjQcaTg5BmqY+9llK/Uw08vJwHEMPFNRlEUJe6q9NDeNc3RxnICkH715oOUUXtI7xqjuZsMasEdotzTApzTGlBccK4PNTj6tXTqPZgCsMlYauBFgRdFCBKjqI+3xZkWMaZbHCZB1p/2i16yzXZEoKaAMEDCgcCVLlKdiwjzNStc5DWnmnjOyhO3wIPunelvEUr7ZZllYe8M9To+koa8VEPfpCJ6SZgpbezoLpaHeeeKiPnBGccXAeF2zNbQNTttx61bOSmw5IY3nGiuWWJno1ShMhiqhbovGFIWGSqJtBnbccXsLPuRdrJlB3R9c7hX8UO0P4DvjaOxVMBdMLm//y90nde96Tb/4uzq/XpsFCacGq+5nHWIJte5TLluD68K5hKkG06WjB+C2isgzZhHiaI+h0cvq23YRqIyS5uQMq83CsYbSm+kQk3CiEESqDHJp7gBEB0erXpqJZOhZc1kmFeHDspPmMJdE4mQ/xiAcgHJLU4eRkN4+5fpXY9OZznUQzGjxHg2Zu3ldSMcQccY3Et8zN8HLuXq8X7hX/oNRLBXzTCNXThofhy0wSrol8gE0=
-  upload-dir: B16
-  skip_cleanup: true
+  upload_dir: B16
+  cleanup: true
   acl: public
   region: ap-south-1
 
