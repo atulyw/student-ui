@@ -7,3 +7,9 @@ services:
 install: true  
 script: 
   - mvn clean package
+deploy:
+  - provider: s3
+    access_key_id: AKIAWQOUZFV6KDQ4RY6D
+    bucket: atul-test-cbz
+    secret_access_key:
+      secure:
