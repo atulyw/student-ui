@@ -7,10 +7,10 @@ script:
 - mvn clean package
 deploy:
 - provider: s3
-  access_key_id: AKIAWQOUZFV6GTNBQRPR
+  access_key_id: AKIAWQOUZFV6GOS6LIZA
   bucket: atul-test-cbz
-  secret_access_key:
-    secure: VsCfdcUuplzgrLezi1nnmeDxdojc74lbE4Sh2xcQiDckWB36OgUn0jMGrQaLULAxRU3zWkKuAmQTSbsm9OQpnYS8OnCO2QxFW1phRNqOkuRRdxVR/wXnU+T05a0vs5fFEwxK16VqsaoijeQiKkixTFcIM+JTPdIIQY1CuSz6qOpm3pjRWwrPwkSusvghy6z6w5CqdY8U6MOpp1cGIlZOyEPBxi6Fn+9BAhfEVNdQTO+H/OODUuMQtyNqwdCAgl+IhNh08ym78yy+k67lM0gUKAYHlL812cUomT8SIJEB5a9LzBFXHeBPjH9nZw+SEX2+WdS9XL3GuOTCl7rVierSD3NrNEpKpT++INwF6myej0gym6NPCW0jUD0dngEsBZTcxfjIIRBVjUHnINIgcbWBBRVtcLhBXz105ypSSm5RcOF3vQucuXTuKDLFDPrmz41yyxWltBijybNSzevq0qAO++7MgHdXqho3CYU8m+e6k5ZCMF6vSEtUUWJcCoInohERl6PprgbqtyiTsMs4lSZmlVsUvO70jGOJMb35TlpsiQehH6tA2rqCAmg5y+gkSVGoAv2O+rjpHBBphX7vCzIHZ8wNH5sJMqq3aQnp14O2bWMf46QxEf+YiDfSePnQYfHeJ5ld1u1zHPwom+1BPxVhj8NgP+ZpqUt6+zFR/WrpGpA=
+  secret_access_key: s4vFaoRcx+blvnKlGuLVYoOhPsai3jszVve+LyFy
+    
   upload_dir: B16
   cleanup: false
   acl: public
