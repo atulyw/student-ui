@@ -1,19 +1,21 @@
 dist: trusty
 language: java
 jdk:
-  - oraclejdk8
+- oraclejdk8
 services:
-  - maven  
-install: true  
-script: 
-  - mvn clean package
+- maven
+install: true
+script:
+- mvn clean package
 deploy:
-  - provider: s3
-    access_key_id: AKIAWQOUZFV6KDQ4RY6D
-    bucket: atul-test-cbz
-    secret_access_key:
-      secure: "uAieV4HcruuD5B73ET0LFOJNt/tOSopDzExtcZndO/fNaEDArsDUEz4D69HcZn3ZdutiLXcP1pAL7VJSGfv5PWkceypzV88Zq1iAoTnQW31xNLVgg6kf2O5GNv4wugakXVO1lVXPHlJQWb4/Yz7qNyqcBhomLwLGZiJFjhhSoAgU3IQ3GlDqWKLDVYHjYW31MV5EBVXfThNTk3avZqkBLb3t32/IG91wL1ydMTZ3UmEIQhk5gac0B8bhw7+MIuFfxVw22vMtYU2NA2mBcEVdUVEx4rs+BvSKyzWblgnmPe7vzC7gchtF5ZT3rVEFttysWN2N0rHg7Dn1f/0MQFcs2F4lnzZPMWJRacHKmCuj34EwAqCLUgNk8Vv5+RSWwCwb2XwyWVgrc8NA2qSwYFn/U1p8PAHXw/vrgy2Rdxo5hWy2klsO+WYdRdD6/qYSQxecgeRK4nrRgsKIc0UukmrOq04h2vO5xuTnqZARIzY1wXerct+CvYMtFyvZu9t50sFyOLwG0kNgqyJtK6IOd1Nvrfjb8mpNUIRxUIBKkAXEWm+pdt5ure0trWlU9iU9EvIKxGW0UiH4ZAdGNGtBwECURkYQobPb4SrKZmWHBN3DmJ/28I3aqyLh9rJNl2rqzMakgvhlxGACB9Ju8SqkjNg5ak9roio5SjHj/x+Fef6v4mg="
-    upload-dir: B16
-    skip_cleanup: true
-    acl: public
-    region: ap-south-1
+- provider: s3
+  access_key_id: AKIAWQOUZFV6GTNBQRPR
+  bucket: atul-test-cbz
+  secret_access_key:
+   secure: m0yLvY5TMevabMQf6BPqwOXUhTfgx921+2kMsCf1JpF5fcjDJ8sFKuIsAq2aE3QK9Okfl1TndchGRjiLUdLUWtEKmGEFX86Za0U9yghOZpgmjQcaTg5BmqY+9llK/Uw08vJwHEMPFNRlEUJe6q9NDeNc3RxnICkH715oOUUXtI7xqjuZsMasEdotzTApzTGlBccK4PNTj6tXTqPZgCsMlYauBFgRdFCBKjqI+3xZkWMaZbHCZB1p/2i16yzXZEoKaAMEDCgcCVLlKdiwjzNStc5DWnmnjOyhO3wIPunelvEUr7ZZllYe8M9To+koa8VEPfpCJ6SZgpbezoLpaHeeeKiPnBGccXAeF2zNbQNTttx61bOSmw5IY3nGiuWWJno1ShMhiqhbovGFIWGSqJtBnbccXsLPuRdrJlB3R9c7hX8UO0P4DvjaOxVMBdMLm//y90nde96Tb/4uzq/XpsFCacGq+5nHWIJte5TLluD68K5hKkG06WjB+C2isgzZhHiaI+h0cvq23YRqIyS5uQMq83CsYbSm+kQk3CiEESqDHJp7gBEB0erXpqJZOhZc1kmFeHDspPmMJdE4mQ/xiAcgHJLU4eRkN4+5fpXY9OZznUQzGjxHg2Zu3ldSMcQccY3Et8zN8HLuXq8X7hX/oNRLBXzTCNXThofhy0wSrol8gE0=
+  upload-dir: B16
+  skip_cleanup: true
+  acl: public
+  region: ap-south-1
+
+    
