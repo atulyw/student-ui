@@ -13,6 +13,6 @@ deploy:
     
   upload_dir: B16
   cleanup: false
-  acl: public
+  acl: private
   region: ap-south-1
     
